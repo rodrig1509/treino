@@ -7,8 +7,7 @@ body, html {
 }
 header{
     display: flex;
-    position: fixed;
-    width: 100%; 
+    width: 100%;   /*position:fixed*/
     padding: 1%;
     gap: 10px;
     color: #fff;
@@ -39,9 +38,25 @@ p{
     text-decoration:underline;
 }
 
-
-
-   
-
-
+/* PAGINA LOGIN*/
+.login{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 400px;
+    background-image: linear-gradient(to bottom right, #3498db, #2ecc71);
+    border-radius: 7px;
+}
+.forms{
+    margin-right: 10%;
+    margin-left: 1%;
+    color: #fff;
+}
+.login img{
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-left: 26px;
+}
 
