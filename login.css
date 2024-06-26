@@ -50,13 +50,40 @@ p{
     border-radius: 7px;
 }
 .forms{
-    margin-right: 10%;
-    margin-left: 1%;
+    width: 50%;
+    height: 400px;
     color: #fff;
+}
+.forms h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.forms form{
+    margin-left: 20%;
+}
+.forms button{
+    margin-top: 25px;
+    background-color: blue;
+    color:#fff;
+    text-decoration: none;
+}
+input{
+    width: 370px;
+    height: 22px;
+    border-radius: 5px;
+    border-color: #1a9e9e;
+    outline: none;
+}
+input:hover{
+    border-color:#1fb5b5;
+}
+label{
+    margin-top: 20px;
+    display: block;
 }
 .login img{
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
-    margin-left: 26px;
+    width: 50%;
 }
 
